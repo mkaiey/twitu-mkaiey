@@ -1,0 +1,12 @@
+# Twitu Application Chat Online
+
+## Setup .env file
+
+```js
+PORT=5000
+MONGO_URI=
+JWT_SECRET=
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+```
