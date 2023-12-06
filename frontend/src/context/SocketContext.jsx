@@ -16,7 +16,7 @@ export const SocketContextProvider = ({ children }) => {
   const user = useRecoilValue(userAtom);
 
   useEffect(() => {
-    const socket = io("http://localhost:5000", {
+    const socket = io("https://twitu-mkaiey.vercel.app", {
       query: {
         userId: user?._id,
       },
