@@ -22,7 +22,7 @@ const Message = ({ ownMessage, message }) => {
                 color={message.seen ? "blue.400" : ""}
                 fontWeight={"bold"}
               >
-                <BsCheck2All size={16} />
+                <BsCheck2All size={16} color={"violet"}/>
               </Box>
             </Flex>
           )}

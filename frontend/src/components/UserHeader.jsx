@@ -92,16 +92,16 @@ const UserHeader = ({ user }) => {
         </Flex>
         <Flex>
           <Box className="icon-container">
-            <BsInstagram size={24} cursor={"pointer"} />
+            <BsInstagram size={24} cursor={"pointer"} color="blueviolet" />
           </Box>
           <Box className="icon-container">
             <Menu>
               <MenuButton>
-                <CgMoreO size={24} cursor={"pointer"} />
+                <CgMoreO size={24} cursor={"pointer"} color="blueviolet"/>
               </MenuButton>
               <Portal>
-                <MenuList bg={"grey.dark"}>
-                  <MenuItem bg={"blueviolet"} onClick={copyURL}>
+                <MenuList bg={"greenyellow"}>
+                  <MenuItem bg={"grey.dark"} onClick={copyURL}>
                     Copy link
                   </MenuItem>
                 </MenuList>

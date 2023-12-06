@@ -30,6 +30,7 @@ const Conversation = ({ conversation, isOnline }) => {
       gap={4}
       alignItems={"center"}
       p={"1"}
+      color={"blueviolet"}
       _hover={{
         cursor: "pointer",
         bg: useColorModeValue("gray.600", "gray.dark"),
