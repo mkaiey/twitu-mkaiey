@@ -8,10 +8,10 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://twitu-app.vercel.app",
-    methods: ["GET", "POST"],
-    credentials: true
+    origin: true,
+    credentials: true,
   },
+  allowEIO3: true,
 });
 
 export const getRecipientSocketId = (recipientId) => {
